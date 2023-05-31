@@ -1,0 +1,280 @@
+
+.mainDiv{
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.watchlist{
+  width: 93%;
+  margin-left: auto;
+}
+.titleLine{
+  margin-top:2%;
+  display: flex;
+  justify-content: space-between;
+}
+.logBar{
+  width: 15%;
+  display: flex;
+  align-items: center;
+}
+.headLine{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top:4%;
+
+}
+.headLine2{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top:1%;
+
+}
+
+.title{
+  font-size: 20px;
+  font-weight: 600;
+
+}
+.bold{
+  font-weight: bold;
+}
+
+.add{
+  margin-right: 1%;
+  font-size: 15px;
+  color: #5751fc;
+  text-decoration: none;
+}
+
+.heading{
+  font-size: 26px;
+  color: #25204e;
+  font-weight: bold;
+}
+.navbar{
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: #7874fe;
+  width: 5%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  min-height: 50px;
+}
+.watchRow{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.2%;
+    width: 98%;
+}
+.position1,.position2,.position3,.position4{
+  width: 22%;
+}
+.avatarUser{
+  width: 40px;
+  height: 40px;
+  
+}
+
+.position2, .position3{
+  text-align: center;
+}
+.position4{
+  text-align: end;
+}
+
+.posText1{
+  font-weight: bold;
+}
+.posText{
+  color: rgba(0, 0, 0, 0.648);
+}
+
+.blockOne{
+  height: 50%;
+  width: 95%;
+}
+.blockTwo{
+  height: 31%;
+  width: 36%;
+  overflow: auto;
+}
+.watchNotify{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3%;
+  width: 100%;
+  
+}
+.dropdown{
+  width: 25px;
+  margin-left: 10px;
+}
+.dropdown2{
+  width: 20px;
+  margin-right: 20px;
+}
+
+.parentalTwo{
+  display: flex;
+  width: 91%;
+  padding: 10px 15px;
+  transition: 100ms linear; 
+  border-radius:8px;
+}
+.parentalTwo:hover{
+  background-color: #ebedfbd1;
+  transition: 300ms linear;
+  
+}
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  .blockTwo {
+    scrollbar-width: auto;
+    scrollbar: height 3px;
+    scrollbar-color: #e3e5f2f4 #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  .blockTwo::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  .blockTwo::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  .blockTwo::-webkit-scrollbar-thumb {
+    background-color: #e3e5f2f4;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }
+
+.notifyClose{
+  color:#25204e;
+  transition: 300ms linear; 
+}
+.squarePage{
+  width: 26%;
+  border-radius: 8px;
+  aspect-ratio: 1/1;
+  background-color: #ebedfb;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1%;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.notifyTitle{
+  font-size: 18px;
+  color: #25204e;
+  font-weight: 800;
+}
+
+.notifyCaption{
+  font-size: 14px;
+  color: #454545;
+}
+.notifyClose{
+  position: absolute;
+  top: 1%;
+  right: 1%;
+  display: contents;
+  text-decoration: none;
+  font-size: 14px;
+  transition: 100ms linear;
+}
+
+.navItem{
+  margin-top: 30px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navLastItem{
+  margin-top: auto;
+  margin-bottom: 20px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centerIcons{
+  display: flex;
+  flex-direction: column;
+}
+
+.logo{
+  margin-top: 100%;
+  margin-bottom: 100%;
+}
+.logotype{
+  color: white;
+}
+
+.addNewContainer{
+  width: 100%;
+  height:100%;
+  position: absolute;
+  z-index: 100;
+  background-color: #252137;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.addNewContainer:target{
+  display: flex;
+
+}
+.close{
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  right: 2%;
+  top: 2%;
+  text-decoration: none;
+}
+
+.formAddNew{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding: 30px;
+  height: 20%;
+}
+
+.formTitle{
+  color: white;
+  font-size: 20px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.inputAdd{
+  width: 80%;
+  margin: auto;
+  height: 35px;
+  padding: 5px 10px;
+  margin-bottom: 15px;
+}
+.ctaForm{
+  width: 30%;
+  background-color: #b6184d;
+  height: 35px;
+  margin-left: auto;
+  margin-right: 8%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+}

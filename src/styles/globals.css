@@ -1,0 +1,19 @@
+body{
+    font-family: 'arcon', sans-serif;
+    background-color: #fdfcff;
+    min-height: 100%;
+    margin: 0px!important;
+}
+#__next{
+    height: 100%;
+}
+html{
+    height: -webkit-fill-available;
+} 
+html,
+body,
+body > div:first-child,
+div#__next,
+div#__next > div {
+  height: 100%;
+}

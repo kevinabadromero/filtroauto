@@ -1,0 +1,13 @@
+{
+  "facebook": {
+    "email": "kevin-0830@gmail.com",
+    "password": "29529639.Ka",
+    "WebDriver_Path":  "C:\\webdriver\\chromedriver.exe",
+    "query": "r6",
+    "desired_maximum_mileage": 16000,
+    "desired_minimum_year": 2000,
+    "minimum_price": 100,
+    "maximum_price": 2000,
+    "carBrand": "Yamaha"
+  }
+}
